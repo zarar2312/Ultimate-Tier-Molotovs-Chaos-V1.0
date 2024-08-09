@@ -1,1 +1,1 @@
-# Ultimate Tier Molotovs: Chaos
+# Ultimate Tier Molotovs
