@@ -1,0 +1,149 @@
+<config>
+	<append xpath="/buffs">
+		<!-- Ultimate Tier 1 Molotof Kokteyli -->
+		<buff name="buffBurningMolotov_U1" hidden="true">
+			<damage_type value="heat" />
+			<stack_type value="replace" />
+			<!-- Süreyi 20 saniyeye ayarlama -->
+			<effect_group>
+				<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LT" value="20" />
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffBurningMolotovDuration" operation="set" value="20" />
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$buffBurningMolotovDuration" operation="set" value="20" />
+			</effect_group>
+			<!-- Süre bitiminde buff'ı kaldır -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningMolotov_U1">
+					<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LTE" value="0" />
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$buffBurningMolotovDuration" />
+			</effect_group>
+			<!-- Yanma etkileri -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffIsOnFire" />
+				<!-- En düşük 380 hasar -->
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,16,20" value="30,55,55,120,120">
+					<requirement name="EntityTagCompare" target="other" tags="player,zombie,feral,radiated,animal" />
+				</passive_effect>
+				<passive_effect name="WaterChangeOT" operation="base_subtract" value="1.5" />
+				<passive_effect name="HypothermalResist" operation="base_add" value="35" />
+				<passive_effect name="HyperthermalResist" operation="base_add" value="-15" />
+			</effect_group>
+		</buff>
+		<!-- Ultimate Tier 2 Molotof Kokteyli -->
+		<buff name="buffBurningMolotov_U2" hidden="true">
+			<damage_type value="heat" />
+			<stack_type value="replace" />
+			<!-- Süreyi 25 saniyeye ayarlama -->
+			<effect_group>
+				<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LT" value="25" />
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffBurningMolotovDuration" operation="set" value="25" />
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$buffBurningMolotovDuration" operation="set" value="25" />
+			</effect_group>
+			<!-- Süre bitiminde buff'ı kaldır -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningMolotov_U2">
+					<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LTE" value="0" />
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$buffBurningMolotovDuration" />
+			</effect_group>
+			<!-- Yanma etkileri -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffIsOnFire" />
+				<!-- En düşük 460 hasar -->
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,16,20,25" value="20,20,75,75,130,140">
+					<requirement name="EntityTagCompare" target="other" tags="zombie,feral,radiated,animal" />
+				</passive_effect>
+				<passive_effect name="WaterChangeOT" operation="base_subtract" value="1.5" />
+				<passive_effect name="HypothermalResist" operation="base_add" value="35" />
+				<passive_effect name="HyperthermalResist" operation="base_add" value="-15" />
+			</effect_group>
+		</buff>
+		<!-- Ultimate Tier 3 Molotof Kokteyli -->
+		<buff name="buffBurningMolotov_U3" hidden="true">
+			<damage_type value="heat" />
+			<stack_type value="replace" />
+			<!-- Süreyi 30 saniyeye ayarlama -->
+			<effect_group>
+				<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LT" value="30" />
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffBurningMolotovDuration" operation="set" value="30" />
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$buffBurningMolotovDuration" operation="set" value="30" />
+			</effect_group>
+			<!-- Süre bitiminde buff'ı kaldır -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningMolotov_U3">
+					<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LTE" value="0" />
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$buffBurningMolotovDuration" />
+			</effect_group>
+			<!-- Yanma etkileri -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffIsOnFire" />
+				<!-- En düşük 540 hasar -->
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,20,25,30" value="50,150,170,170">
+					<requirement name="EntityTagCompare" target="other" tags="feral,radiated" />
+				</passive_effect>
+				<passive_effect name="WaterChangeOT" operation="base_subtract" value="1.5" />
+				<passive_effect name="HypothermalResist" operation="base_add" value="35" />
+				<passive_effect name="HyperthermalResist" operation="base_add" value="-15" />
+			</effect_group>
+		</buff>
+		<!-- Ultimate Tier 4 Molotof Kokteyli -->
+		<buff name="buffBurningMolotov_U4" hidden="true">
+			<damage_type value="heat" />
+			<stack_type value="replace" />
+			<!-- Süreyi 35 saniyeye ayarlama -->
+			<effect_group>
+				<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LT" value="35" />
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffBurningMolotovDuration" operation="set" value="35" />
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$buffBurningMolotovDuration" operation="set" value="35" />
+			</effect_group>
+			<!-- Süre bitiminde buff'ı kaldır -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningMolotov_U4">
+					<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LTE" value="0" />
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$buffBurningMolotovDuration" />
+			</effect_group>
+			<!-- Yanma etkileri -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffIsOnFire" />
+				<!-- En düşük 620 hasar -->
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,16,25,35" value="60,90,90,190,190">
+					<requirement name="EntityTagCompare" target="other" tags="radiated" />
+				</passive_effect>
+				<passive_effect name="WaterChangeOT" operation="base_subtract" value="1.5" />
+				<passive_effect name="HypothermalResist" operation="base_add" value="35" />
+				<passive_effect name="HyperthermalResist" operation="base_add" value="-15" />
+			</effect_group>
+		</buff>
+		<!-- Ultimate Tier 5 Molotof Kokteyli -->
+		<buff name="buffBurningMolotov_U5" hidden="true">
+			<damage_type value="heat" />
+			<stack_type value="replace" />
+			<!-- Süreyi 40 saniyeye ayarlama -->
+			<effect_group>
+				<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LT" value="40" />
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffBurningMolotovDuration" operation="set" value="40" />
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$buffBurningMolotovDuration" operation="set" value="40" />
+			</effect_group>
+			<!-- Süre bitiminde buff'ı kaldır -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningMolotov_U5">
+					<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LTE" value="0" />
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$buffBurningMolotovDuration" />
+			</effect_group>
+			<!-- Yanma etkileri -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffIsOnFire" />
+				<!-- En düşük 700 hasar -->
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,16,25,32,36,40" value="70,105,105,105,105,210">
+					<requirement name="EntityTagCompare" target="other" tags="radiated" />
+				</passive_effect>
+				<passive_effect name="WaterChangeOT" operation="base_subtract" value="1.5" />
+				<passive_effect name="HypothermalResist" operation="base_add" value="35" />
+				<passive_effect name="HyperthermalResist" operation="base_add" value="-15" />
+			</effect_group>
+		</buff>
+	</append>
+</config>

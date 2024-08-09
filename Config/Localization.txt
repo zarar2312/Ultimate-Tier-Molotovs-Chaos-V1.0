@@ -1,0 +1,16 @@
+Key,english,turkish
+ammoGrenadeFire,Ultimate Tier 1 Molotov Cocktail,Ultimate Tier 1 Molotof Kokteyli
+U1MolotovCocktail,Ultimate Tier 1 Molotov Cocktail,Ultimate Tier 1 Molotof Kokteyli
+U1MolotovCocktailDesc,Ultimate Tier 1 Molotov Cocktail\n\n[00FF00]Its difference from normal molotov is its duration and area of ​​effect.\n\nDamage Target: player-zombie-feral-radiated-animals,Ultimate Tier 1 Molotof Kokteyli\n\n[00FF00]Normal molotofdan farkı süresi ve etki alanıdır.\n\nHasar Alanlar: oyuncu-zombiler-vahşiler-radrasyonlu zombiler-hayvanlar
+ammoGrenadeFire,Ultimate Tier 2 Molotov Cocktail,Ultimate Tier 2 Molotof Kokteyli
+U2MolotovCocktail,Ultimate Tier 2 Molotov Cocktail,Ultimate Tier 2 Molotof Kokteyli
+U2MolotovCocktailDesc,Ultimate Tier 2 Molotov Cocktail\n\n[00FFFF]Its difference from normal molotov is its duration and area of ​​effect.\n\nDamage Target: zombie-feral-radiated-animals,Ultimate Tier 2 Molotof Kokteyli\n\n[00FFFF]Normal molotofdan farkı süresi ve etki alanıdır.\n\nHasar Alanlar: zombiler-vahşiler-radrasyonlu zombiler-hayvanlar
+ammoGrenadeFire,Ultimate Tier 3 Molotov Cocktail,Ultimate Tier 3 Molotof Kokteyli
+U3MolotovCocktail,Ultimate Tier 3 Molotov Cocktail,Ultimate Tier 3 Molotof Kokteyli
+U3MolotovCocktailDesc,Ultimate Tier 3 Molotov Cocktail\n\n[FFFF00]Its difference from normal molotov is its duration and area of ​​effect.\n\nDamage Target: feral-radiated ,Ultimate Tier 3 Molotof Kokteyli\n\n[FFFF00]Normal molotofdan farkı süresi ve etki alanıdır.\n\nHasar Alanlar: vahşiler-radrasyonlu
+ammoGrenadeFire,Ultimate Tier 4 Molotov Cocktail,Ultimate Tier 4 Molotof Kokteyli
+U4MolotovCocktail,Ultimate Tier 4 Molotov Cocktail,Ultimate Tier 4 Molotof Kokteyli
+U4MolotovCocktailDesc,Ultimate Tier 4 Molotov Cocktail\n\n[A569BD]Its difference from normal molotov is its duration and area of ​​effect.\n\nDamage Target: radiated,Ultimate Tier 4 Molotof Kokteyli\n\n[A569BD]Normal molotofdan farkı süresi ve etki alanıdır.\n\nHasar Alanlar: radrasyonlu
+ammoGrenadeFire,Ultimate Tier 5 Molotov Cocktail,Ultimate Tier 5 Molotof Kokteyli
+U5MolotovCocktail,Ultimate Tier 5 Molotov Cocktail,Ultimate Tier 5 Molotof Kokteyli
+U5MolotovCocktailDesc,Ultimate Tier 5 Molotov Cocktail\n\n[F10000]Its difference from normal molotov is its duration and area of ​​effect.\n\nDamage Target: radiated,Ultimate Tier 5 Molotof Kokteyli\n\n[F10000]Normal molotofdan farkı süresi ve etki alanıdır.\n\nHasar Alanlar: radrasyonlu

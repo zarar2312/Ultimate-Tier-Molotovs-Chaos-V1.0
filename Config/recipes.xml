@@ -1,0 +1,34 @@
+<config>
+	<!-- Ultimate Tier 1 Molotof Kokteyli -->
+	<append xpath="/recipes">
+		<recipe name="U1MolotovCocktail" count="1" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceCloth" count="8" />
+			<ingredient name="ammoGasCan" count="500" />
+			<ingredient name="resourceOil" count="1" />
+		</recipe>
+		<!-- Ultimate Tier 2 Molotof Kokteyli -->
+		<recipe name="U2MolotovCocktail" count="1" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceCloth" count="15" />
+			<ingredient name="ammoGasCan" count="600" />
+			<ingredient name="resourceOil" count="2" />
+		</recipe>
+		<!-- Ultimate Tier 3 Molotof Kokteyli -->
+		<recipe name="U3MolotovCocktail" count="1" craft_time="14" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceCloth" count="20" />
+			<ingredient name="ammoGasCan" count="920" />
+			<ingredient name="resourceOil" count="3" />
+		</recipe>
+		<!-- Ultimate Tier 4 Molotof Kokteyli -->
+		<recipe name="U4MolotovCocktail" count="1" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceCloth" count="50" />
+			<ingredient name="ammoGasCan" count="1525" />
+			<ingredient name="resourceOil" count="6" />
+		</recipe>
+		<!-- Ultimate Tier 5 Molotof Kokteyli -->
+		<recipe name="U5MolotovCocktail" count="1" craft_time="35" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceCloth" count="100" />
+			<ingredient name="ammoGasCan" count="2525" />
+			<ingredient name="resourceOil" count="15" />
+		</recipe>
+	</append>
+</config>
