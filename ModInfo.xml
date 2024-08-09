@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
-	<Name value="ultimatetiermolotovschaos" />
+	<Name value="ultimatetiermolotovs" />
 	<DisplayName value="Ultimate Tier Molotovs V1.0" />
 	<Description value="Ultimate Tier Molotovs V1.0, 7 Days to Die is a mod designed to bring a brand new molotov experience to your game.- Ultimate Tier Molotovs V1.0, 7 Days to Die oyununuza yepyeni bir molotof deneyim getirmek için tasarlanmış bir moddur." />
 	<Author value="Efraim K." />
 	<Version value="1.0" />
 	<Website value="https://github.com/zarar2312/Ultimate-Tier-Molotovs-Chaos-V1.0" />
-	<Banner value="Textures/ultimate-tier-molotovs-chaos.png" />
+	<Banner value="Textures/Ultimate-Tier-Molotovs.png" />
 </xml>
