@@ -8,7 +8,7 @@
 			<property name="Extends" value="thrownAmmoMolotovCocktail" />
 			<property name="ActivateObject" value="lightSource" />
 			<property name="Explosion.RadiusBlocks" value=".1" />
-			<property name="Explosion.RadiusEntities" value="3" />
+			<property name="Explosion.RadiusEntities" value="5" />
 			<property name="Explosion.DamageBonus.stone" value="0" />
 			<property name="Explosion.DamageBonus.wood" value="1" />
 			<property name="EconomicValue" value="90" />
